@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>header-design</title>
 
+    <!-- fontawsome  -->
+
+    <script src="https://kit.fontawesome.com/732463d0ee.js" crossorigin="anonymous"></script>
+
     <!-- google font  -->
 
     <style>
@@ -31,7 +35,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span><i class="fas fa-bars navbar-icon"></i></span>
                     </button>
 
                     <a class="navbar-brand" href="#">
@@ -39,21 +43,22 @@
                     </a>
 
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active text-center text-md-left" aria-current="page"
+                                    href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Me</a>
+                                <a class="nav-link text-center text-md-left text-white" href="#">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Tutorials</a>
+                                <a class="nav-link text-center text-md-left text-white" href="#">Tutorials</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Feedback</a>
+                                <a class="nav-link text-center text-md-left text-white" href="#">Feedback</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Me</a>
+                                <a class="nav-link text-center text-md-left text-white" href="#">Contact Me</a>
                             </li>
 
                         </ul>
@@ -65,11 +70,11 @@
 
 
             <section id="banner">
-                <div class="banner-container">
+                <div class="banner-container text-center d-flex justify-content-center align-items-center">
                     <div class="banner-contents">
-                        <h1>Learn something new !</h1>
-                        <button>Tutorials</button>
-                        <button>Subscribe</button>
+                        <h1 class="font-weight-bolder text-white mb-5">Learn something new !</h1>
+                        <button class="btn btn-lg btn-primary me-5">Tutorials</button>
+                        <button class="btn btn-lg btn-primary me-5">Subscribe</button>
                     </div>
                 </div>
             </section>
