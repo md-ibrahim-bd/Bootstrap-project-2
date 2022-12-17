@@ -7,12 +7,23 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
+.hr-style{
+    border: 5px dotted;
+    border-color: black;
+    border-bottom: none;
+    margin: auto;
+    width: 50px;
+}
+    
+
 header{
-    background-image: url(classroam.jpg);
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url(./classroam.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
+    background-size: 100%;
+    
+    
 }
 .navbar{
     padding: 1% 10%;
