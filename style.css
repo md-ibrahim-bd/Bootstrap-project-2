@@ -142,3 +142,25 @@ header{
 
 
 /* tutorial end  */
+
+
+/* feedback start  */
+
+#feedback{
+    padding: 5%;
+    background: #2980b9;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.feedback-img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+
+/* feedback end  */
