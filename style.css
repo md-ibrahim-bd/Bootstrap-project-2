@@ -187,3 +187,41 @@ header{
 }
 
 /* contact end  */
+
+
+/* footer start  */
+
+
+footer{
+    padding: 1% 10%;
+    background: #97DECE;
+}
+footer a{
+    color: #DC3535;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+}
+
+
+/* footer end  */
+
+
+
+/* responsive  */
+
+
+
+@media (max-width:768px){
+    .nav-link{
+        background-color: #3C4048;
+    }
+    .banner-container h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+/* responsive end */
