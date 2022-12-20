@@ -135,6 +135,14 @@ header{
         transition: .4s;
         border: 10px solid #CB1C8D;
     }
+    .card-body > h3{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card:hover > .card-body > h3{
+        white-space: normal;
+    }
     .card:hover{
         transform: scale(1.1);
         box-shadow: 2px 6px 5px #C147E9;
